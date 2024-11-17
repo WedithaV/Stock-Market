@@ -2,8 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace api.Models
-{
-    public class Stock
+{    public class Stock
     {
         public int Id { get; set; }
         public string Sysmbol { get; set; } = string.Empty;
